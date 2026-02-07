@@ -24,8 +24,8 @@ export async function generateTopicPair(category: string): Promise<TopicPair> {
         content: `카테고리: ${category}`,
       },
     ],
-    temperature: 1.0,
-    max_tokens: 100,
+    temperature: 0.9,
+    max_tokens: 200,
     response_format: { type: "json_object" },
   });
 
